@@ -1,38 +1,461 @@
-.App {
+* {
+  font-family: 'Questrial', sans-serif;
+}
+
+a:hover {
+  color:#CDB3E5;
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-color: white;
+  color: black;
+  font-size:15px;
+}
+.nav-bar a {
+  color: black;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 1.2em;
+}
+.nav-links {
+  text-align:right;
+  margin: 0 20px 0 20px;
+}
+nav a:hover {
+  color:#CDB3E5;
+}
+
+
+.footer-container {
+  background-color:#CDB3E5;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+  position:fixed;
+}
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  padding: 1rem;
+  font-size:15px;
+}
+
+#home {
+  background-size: cover;
+  background-image: radial-gradient(circle at top left, rgb(240, 220, 173), rgba(185, 155, 201), rgb(172, 203, 225));
+  cursor: url(/public/img/doughnut.png), auto;
+}
+#home h1 {
+  color:white;
+}
+#home h2 {
+  color:white;
+}
+
+
+#photo-profile {
+  width: 60%;
+  margin: auto;
+  display:block;
+}
+.content-home {
+  padding: 15vh 0 15vh 0;
+}
+.content {
+  padding: 15vh 0 15vh 0;
+}
+
+#name {
+  font-size:6em;
+}
+#title {
+  text-indent: 10px;
+}
+
+#about {
+  background-image: url(/public/img/2.png);
+  background-size:100vh;
+  background-position: 50%;
+  background-repeat: no-repeat;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coding-mantra {
+  margin: auto;
+}
+.mantra-title {
+  margin-bottom: 5vh;
+}
+.mantra {
+  font-size: 3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#education h1 {
+  font-size: 4em;
+}
+#education p {
+  font-size: 1.2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#skills {
   color: white;
+  background-image: url(/public/img/4.png);
+  background-size:cover;
+  cursor: url(/public/img/woman-technologist.png), auto;
+}
+#skills h1 {
+  font-size: 4em;
+  margin-top:15vh;
 }
 
-.App-link {
-  color: #61dafb;
+.devicons {
+  font-size: 4em;
+  color:white;
+  text-align: center;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.devicons, h6 {
+  margin:auto;
+}
+
+#portfolio h1 {
+  margin-bottom: 5vh;
+  font-size:4em;
+}
+#portfolio h2 {
+  margin-top: 15vh;
+}
+.portfolio-text {
+  margin:auto;
+  text-align:center;
+}
+
+#testimonials h1 {
+  margin-top: 10vh;
+}
+#testimonials h2 {
+  margin-top: 10vh;
+  text-align: center;
+}
+#testimonials a {
+  margin: 15vh 0 15vh 0;
+  color:rgb(214, 170, 220);
+  text-decoration: none;
+}
+#testimonials a:hover {
+  color:black;
+}
+.testimonials-text {
+  font-size: 4em;
+  text-align: center;
+}
+.testimonial {
+  margin:auto;
+}
+#linkedin-profile {
+  margin-bottom: 10vh;
+}
+
+.text-middle {
+  position: relative;
+  margin-top: 20vh;
+}
+
+#contact {
+  background-size: cover;
+  height: 35vh;
+  background-image: radial-gradient(circle at top left, rgba(249, 189, 233), rgba(185, 155, 201), rgb(172, 203, 225));
+  color:white;
+}
+#contact a {
+  color:white;
+}
+#contact h1 {
+  margin-top: 10vh;
+  font-size:4em;
+}
+#contact h2 {
+  margin-top: 10vh;
+}
+.contact-icon {
+  font-size: 2em;
+}
+.contact-icon a {
+  margin-right: 1vw;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .content {
+    padding: 6vh 0 6vh 0;
   }
-  to {
-    transform: rotate(360deg);
+  #home {
+    background-image: radial-gradient(circle at top left, rgb(172, 203, 225), rgb(214, 170, 220));
+  }
+  #name {
+    text-align:center;
+    font-size: 4.5em;
+    margin-top: 7vh;
+  }
+  #title {
+    font-size: 1.8em;
+    margin-top: 5vh;
+  }
+  .rw-words h2 {
+    font-size: 1.8em;
+  }
+
+  #about {
+    background-size:80vh;
+    background-position: 50%;
+  }
+  .mantra-title {
+    margin-bottom: 5vh;
+  }
+  .mantra {
+    font-size: 2.5em;
+  }
+
+  #education h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+  #education h2 {
+    padding:2% 4% 2% 4%;
+  }
+  #education p {
+    font-size: 1.2em;
+    padding:2% 4% 2% 4%;
+  }
+
+  #skills h1 {
+    font-size: 3em;
+    margin-top:4vh;
+    text-align:center;
+  }
+  .devicons {
+    font-size: 4em;
+    color:white;
+    text-align: center;
+    margin: auto;
+  }
+  .devicons {
+    margin:auto;
+  }
+
+  #portfolio h1 {
+    font-size:3em;
+  }
+
+  #testimonials h1 {
+    margin-top: 5vh;
+  }
+  #testimonials h2 {
+    margin-top: 5vh;
+  }
+  
+  .testimonials-text {
+    font-size: 3em;
+  }
+  .testimonial {
+    margin:auto;
+    padding:2% 4% 2% 4%;
+  }
+  #linkedin-profile {
+    margin-bottom: 10vh;
+  }
+
+  #contact {
+    height: 50vh;
+  }
+
+  #contact h1 {
+    margin-top:5vh;
+    text-align:center;
+  }
+  #contact h2 {
+    margin-top: 5vh;
+    text-align:center;
+  }
+  .contact-icon {
+    font-size: 2em;
+    text-align:center
+  }    
+  .contact-icon a {
+    margin-right: 2vw;
+    margin-left:2vw;
   }
 }
+
+@media only screen and (max-width: 991px) and (min-width: 641px){
+  .content {
+    padding: 6vh 0 6vh 0;
+  }
+  #photo-profile {
+    width: 50%;
+  }
+  #name {
+    text-align:center;
+    font-size: 5em;
+    margin-top: 7vh;
+  }
+  #title {
+    font-size: 3em;
+    margin-top: 5vh;
+  }
+  .rw-words h2 {
+    font-size: 3em;
+  }
+
+  #about {
+    background-size:80vh;
+    background-position: 50%;
+  }
+  .mantra-title {
+    margin-bottom: 5vh;
+  }
+  .mantra {
+    font-size: 3em;
+  }
+
+  #education h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  #education h2 {
+    padding:2% 4% 2% 4%;
+  }
+  #education p {
+    font-size: 1.2em;
+    padding:2% 4% 2% 4%;
+  }
+
+  #skills h1 {
+    font-size: 3em;
+    margin-top:4vh;
+    text-align:center;
+  }
+  .devicons {
+    font-size: 4em;
+    color:white;
+    text-align: center;
+    margin: auto;
+  }
+  .devicons {
+    margin:auto;
+  }
+
+  #portfolio h1 {
+    font-size:3em;
+  }
+
+  #testimonials h1 {
+    margin-top: 5vh;
+  }
+  #testimonials h2 {
+    margin-top: 5vh;
+  }
+  
+  .testimonials-text {
+    font-size: 3em;
+  }
+  .testimonial {
+    margin:auto;
+    padding:2% 4% 2% 4%;
+  }
+  #linkedin-profile {
+    margin-bottom: 10vh;
+  }
+
+  #contact {
+    height: 40vh;
+  }
+
+  #contact h1 {
+    margin-top:5vh;
+    text-align:center;
+  }
+  #contact h2 {
+    margin-top: 5vh;
+    text-align:center;
+  }
+  .contact-icon {
+    font-size: 2em;
+    text-align:center
+  }    
+  .contact-icon a {
+    margin-right: 2vw;
+    margin-left:2vw;
+  }  
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+
+
+  #education h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+ 
+  #education p {
+    font-size: 1.2em;
+  }
+
+  #skills h1 {
+    font-size: 3em;
+    margin-top:50vh;
+    text-align:center;
+  }
+
+  #portfolio h1 {
+    font-size:3em;
+  }
+  .card-text {
+    width: 80%;
+  }
+
+  #testimonials h1 {
+    margin-top: 5vh;
+  }
+  #testimonials h2 {
+    margin-top: 5vh;
+  }
+  
+  .testimonials-text {
+    font-size: 3em;
+  }
+  .testimonial {
+    margin:auto;
+    padding:2% 4% 2% 4%;
+  }
+  #linkedin-profile {
+    margin-bottom: 10vh;
+  }
+
+  #contact {
+    height: 40vh;
+  }
+
+  #contact h1 {
+    margin-top:5vh;
+    text-align:center;
+  }
+  #contact h2 {
+    margin-top: 5vh;
+    text-align:center;
+  }
+  .contact-icon {
+    font-size: 2em;
+    text-align:center
+  }    
+  .contact-icon a {
+    margin-right: 1vw;
+    margin-left:1vw;
+  }  
+}
+

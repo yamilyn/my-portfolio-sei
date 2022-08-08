@@ -1,0 +1,97 @@
+.cards {
+    margin-bottom:2%;
+}
+
+.card-project {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+  
+.card-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* padding: 30px; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#CDB3E5;
+}
+
+.card-project:hover .overlay {
+    opacity: 1;
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.card-text a {
+    color:white;
+    text-decoration: none;
+}
+.card-text a:hover {
+    color:white;
+}
+
+.card-icon {
+    text-align: center;
+    font-size: 2em;
+}
+.card-icon a {
+    margin: 0 2% 2% 2%;
+}
+
+@media only screen and (max-width: 640px) {
+    .card-text {
+        width: 90%;
+        font-size: 1.2em;
+    }
+    .card-icon {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .card-icon a {
+        margin: 0 2% 2% 2%;
+    }
+}
+
+@media only screen and (max-width: 940px) and (min-width: 641px) {
+
+    .card-icon {
+        text-align: center;
+        font-size: 2em;
+    }
+    .card-icon a {
+        margin: 0 2% 2% 2%;
+    }
+    .card-text {
+        width: 80%;
+      }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 941px) {
+    
+    .card-text {
+        width: 80%;
+    }
+}
+

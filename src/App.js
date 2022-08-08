@@ -1,25 +1,50 @@
-import logo from './logo.svg';
 import './App.css';
+import './Animation.css';
+import './Card.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Mainpage from './components/Mainpage';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      <Navbar className="nav-bar" sticky="top" expand="lg">
+        <Container>
+          {/* <Navbar.Brand className="nav-brand">
+            <Link to="/#welcome">Logo</Link>
+          </Navbar.Brand> */}
+          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="text-light ms-auto justify-content-end"> 
+              <Nav.Item>
+                <HashLink to="/#home">Home</HashLink>
+              </Nav.Item>
+              <Nav.Item>
+                <HashLink to="/#about">About me</HashLink>
+              </Nav.Item>
+              <Nav.Item>
+                <HashLink to="/#skills">Skills</HashLink>
+              </Nav.Item>
+              <Nav.Item>
+                <HashLink to="/#portfolio">Portfolio</HashLink>
+              </Nav.Item> 
+              <Nav.Item>
+                <HashLink to="/#testimonials">Testimonials</HashLink>
+              </Nav.Item>
+              <Nav.Item>
+                <HashLink to="/#contact">Contact</HashLink>
+              </Nav.Item>              
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
-export default App;
+      <Mainpage/>     
+
+    </div>
+  )
+}
