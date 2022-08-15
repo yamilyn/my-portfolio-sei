@@ -7,14 +7,14 @@ import {
 import { SiExpress, SiDjango, SiGithub } from "react-icons/si";
 import { CgArrowTopRightR } from "react-icons/cg";
 
-export default function Portfolio() {
+export default function Projects() {
   return (
-    <div id="portfolio">
+    <div id="projects">
       <Container>
         <Row>
-          <Col lg={4} className="portfolio-text">
+          <Col lg={4} className="projects-text">
           <h2>A selection of things I’ve built</h2>
-          <h1>Portfolio</h1>
+          <h1>Projects</h1>
           </Col>
         </Row>
         <Row>

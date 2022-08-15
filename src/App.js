@@ -14,9 +14,9 @@ export default function App() {
     <div>
       <Navbar className="nav-bar" sticky="top" expand="lg">
         <Container>
-          {/* <Navbar.Brand className="nav-brand">
-            <Link to="/#welcome">Logo</Link>
-          </Navbar.Brand> */}
+          <Navbar.Brand className="nav-brand">
+            {/* <Link to="/#home">Logo</Link> */}
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="text-light ms-auto justify-content-end"> 
@@ -27,10 +27,13 @@ export default function App() {
                 <HashLink to="/#about">About me</HashLink>
               </Nav.Item>
               <Nav.Item>
+                <HashLink to="/#education">Education</HashLink>
+              </Nav.Item>
+              <Nav.Item>
                 <HashLink to="/#skills">Skills</HashLink>
               </Nav.Item>
               <Nav.Item>
-                <HashLink to="/#portfolio">Portfolio</HashLink>
+                <HashLink to="/#projects">Projects</HashLink>
               </Nav.Item> 
               <Nav.Item>
                 <HashLink to="/#testimonials">Testimonials</HashLink>

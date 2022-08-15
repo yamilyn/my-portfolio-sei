@@ -76,12 +76,21 @@ nav a:hover {
   text-indent: 10px;
 }
 
-#about {
+#about h1 {
+  font-size: 4em;
+  text-align: center;
+}
+#about p {
+  font-size: 1.2em;
+}
+
+#purpose {
   background-image: url(/public/img/2.png);
   background-size:100vh;
   background-position: 50%;
   background-repeat: no-repeat;
   text-align: center;
+  margin-bottom: 10vh;
 }
 .coding-mantra {
   margin: auto;
@@ -108,7 +117,7 @@ nav a:hover {
 }
 #skills h1 {
   font-size: 4em;
-  margin-top:15vh;
+  margin-top:25vh;
 }
 
 .devicons {
@@ -122,14 +131,14 @@ nav a:hover {
   margin:auto;
 }
 
-#portfolio h1 {
+#projects h1 {
   margin-bottom: 5vh;
   font-size:4em;
 }
-#portfolio h2 {
+#projects h2 {
   margin-top: 15vh;
 }
-.portfolio-text {
+.projects-text {
   margin:auto;
   text-align:center;
 }
@@ -194,6 +203,9 @@ nav a:hover {
   .content {
     padding: 6vh 0 6vh 0;
   }
+  .content-home {
+    padding: 10vh 0 20vh 0;
+  }
   #home {
     background-image: radial-gradient(circle at top left, rgb(172, 203, 225), rgb(214, 170, 220));
   }
@@ -213,6 +225,9 @@ nav a:hover {
   #about {
     background-size:80vh;
     background-position: 50%;
+  }
+  #about h1 {
+    font-size: 3em;
   }
   .mantra-title {
     margin-bottom: 5vh;
@@ -248,7 +263,7 @@ nav a:hover {
     margin:auto;
   }
 
-  #portfolio h1 {
+  #projects h1 {
     font-size:3em;
   }
 
@@ -316,6 +331,9 @@ nav a:hover {
     background-size:80vh;
     background-position: 50%;
   }
+  #about h1 {
+    font-size: 3em;
+  }
   .mantra-title {
     margin-bottom: 5vh;
   }
@@ -350,7 +368,7 @@ nav a:hover {
     margin:auto;
   }
 
-  #portfolio h1 {
+  #projects h1 {
     font-size:3em;
   }
 
@@ -412,7 +430,7 @@ nav a:hover {
     text-align:center;
   }
 
-  #portfolio h1 {
+  #projects h1 {
     font-size:3em;
   }
   .card-text {

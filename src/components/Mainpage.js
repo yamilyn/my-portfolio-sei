@@ -1,9 +1,10 @@
 import React from 'react';
 import Home from '../components/Home';
 import About from '../components/About';
+import Purpose from '../components/Purpose';
 import Education from '../components/Education';
 import Skills from '../components/Skills';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Testimonials from './Testimonials';
@@ -14,9 +15,10 @@ export default function Mainpage() {
     <div>
       <Home/>
       <About/>
+      <Purpose/>
       <Education/>
       <Skills/>
-      <Portfolio/>
+      <Projects/>
       <Testimonials/>
       <Contact/>
       <Footer/>
