@@ -13,8 +13,8 @@ export default function Projects() {
       <Container>
         <Row>
           <Col lg={4} className="projects-text">
-          <h2>A selection of things I’ve built</h2>
-          <h1>Projects</h1>
+            <h1>Projects</h1>
+            <h2>A selection of things I’ve built</h2>
           </Col>
         </Row>
         <Row>

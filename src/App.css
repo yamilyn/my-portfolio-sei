@@ -108,6 +108,9 @@ nav a:hover {
 #education p {
   font-size: 1.2em;
 }
+#education a {
+  color:#CDB3E5;
+}
 
 #skills {
   color: white;
@@ -117,7 +120,7 @@ nav a:hover {
 }
 #skills h1 {
   font-size: 4em;
-  margin-top:25vh;
+  margin-top:15vh;
 }
 
 .devicons {
@@ -132,11 +135,11 @@ nav a:hover {
 }
 
 #projects h1 {
-  margin-bottom: 5vh;
+  margin-top: 15vh;
   font-size:4em;
 }
 #projects h2 {
-  margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 .projects-text {
   margin:auto;
@@ -297,6 +300,9 @@ nav a:hover {
     margin-top: 5vh;
     text-align:center;
   }
+  #email-contact {
+    text-align: center;
+  }
   .contact-icon {
     font-size: 2em;
     text-align:center
@@ -401,6 +407,9 @@ nav a:hover {
   #contact h2 {
     margin-top: 5vh;
     text-align:center;
+  }
+  #email-contact {
+    text-align: center;
   }
   .contact-icon {
     font-size: 2em;

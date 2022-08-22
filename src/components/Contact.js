@@ -13,6 +13,7 @@ export default function Contact() {
           </Col>
           <Col lg={4}>
           <h2>Yamily Benigni</h2>
+          <h4 id="email-contact">hi@yamilycodes.com</h4>
           <Row className="text-left">
           <span className="contact-icon">
             <a href="https://github.com/yamilyn" target="_blank" rel="noreferrer" title="GitHub"><SiGithub/></a>&nbsp;                

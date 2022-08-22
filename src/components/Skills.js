@@ -33,7 +33,11 @@ export default function Skills() {
           <Col className="text-middle" lg={4}>
             {/* <h2>What I can do</h2> */}
             <h1>Skills & Proficiencies</h1>
+            <p><b>Languages:</b> English (fluent), Portuguese (native) and Italian (intermediate).</p>
+            <p><b>Soft skills:</b> Teamwork, self-motivation, commitment, resilience, interpersonal acumen, emotional intelligence, ability to work under pressure and with deadlines.</p>
+            <p><b>Self-taught:</b> Digital marketing, social media expertise, photography and video editing.</p>
           </Col>
+          
           <Col className="devicons" xs={12} sm={12} md={12} lg={6}>
             <Row>
               <Col><DiHtml5/><h6>HTML5</h6></Col>
@@ -66,6 +70,7 @@ export default function Skills() {
               <Col><DiTerminal/><h6>Command line</h6></Col>
             </Row>
           </Col>
+          
         </Row>
       </Container>
     </div>
