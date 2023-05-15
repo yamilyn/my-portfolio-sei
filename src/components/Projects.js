@@ -25,7 +25,7 @@ export default function Projects() {
               <div className="card-text">
                 <h3 className="text-center">Zen Journal app</h3>
                 <h4 className="text-center">Tech stack: <DiReact/><SiExpress/><DiMongodb/><DiBootstrap/><DiHeroku/></h4>
-                <p>An elegant full-stack meditation app built in 8 days using React JS, Express, Mongoose (ODM), MongoDB Database, HTML, CSS, React Bootstrap, third-party APIs and deployed on Heroku cloud.</p>
+                <p>An elegant full-stack meditation app built in two weeks using React JS, Express, Mongoose (ODM), MongoDB Database, HTML, CSS, React Bootstrap, third-party APIs and deployed on Heroku cloud.</p>
                 <br></br>
                 <Row className="text-center">
                   <span className="card-icon">
@@ -44,12 +44,12 @@ export default function Projects() {
             <div className="card-text">
                 <h3 className="text-center">Job Tracker app</h3>
                 <h4 className="text-center">Tech stack: <DiPython/><SiDjango/><DiPostgresql/><DiHtml5/><DiMaterializecss/><DiHeroku/></h4>
-                <p>A powerful job application tracking app built in 4 days using Python, Django, PostgreSQL Database, HTML, CSS, MaterializeCSS library, JavaScript, jQuery and deployed on Heroku cloud.</p>
+                <p>A powerful job application tracking app built in one week using Python, Django, PostgreSQL Database, HTML, CSS, MaterializeCSS library, JavaScript, jQuery and deployed on Heroku cloud.</p>
                 <br></br>
                 <Row className="text-center">
                   <span className="card-icon">
                     <a href="https://github.com/yamilyn/job-tracker-app" target="_blank" rel="noreferrer" title="Read more"><SiGithub/></a>                
-                    <a href="https://jobtrackersei64.herokuapp.com" target="_blank" rel="noreferrer" title="Deployment"><CgArrowTopRightR/></a>
+                    <a href="https://jobtrackerproject3.herokuapp.com" target="_blank" rel="noreferrer" title="Deployment"><CgArrowTopRightR/></a>
                   </span>
                 </Row>
               </div>
@@ -84,7 +84,7 @@ export default function Projects() {
               <div className="card-text">
                 <h3 className="text-center">Space invaders game</h3>
                 <h4 className="text-center">Tech stack: <DiHtml5/><DiCss3/><DiJavascript1/><DiJqueryLogo/><DiGithubBadge/></h4>
-                <p>My solo game project of space invaders arcade game, built in 4 days using JavaScript, jQuery, HTML, CSS and deployed on GitHub pages.</p>
+                <p>My solo game project of space invaders arcade game, built in a week using JavaScript, jQuery, HTML, CSS and deployed on GitHub pages.</p>
                 <br></br>
                 <Row className="text-center">
                   <span className="card-icon">

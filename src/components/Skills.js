@@ -22,7 +22,7 @@ import {
 import { 
   SiExpress, 
   SiDjango, 
-  SiMocha 
+  SiDocker 
 } from "react-icons/si";
 
 export default function Skills() {
@@ -60,7 +60,7 @@ export default function Skills() {
             <Row>
               <Col><DiGit/><h6>Git</h6></Col>
               <Col><DiGithubBadge/><h6>GitHub</h6></Col>
-              <Col><SiMocha/><h6>Mocha</h6></Col>
+              <Col><SiDocker/><h6>Docker</h6></Col>
               <Col><DiBootstrap/><h6>Bootstrap</h6></Col>
             </Row>
             <Row>
